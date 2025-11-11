@@ -55,11 +55,11 @@ def analyze():
         
         # Contextos
         contexts = {
-            "técnico": ["archivo", "documento", "código", "sistema"],
-            "emocional": ["sentimiento", "corazón", "alma", "emoción"],
-            "físico": ["objeto", "material", "cuerpo", "cosa"],
-            "abstracto": ["idea", "concepto", "pensamiento", "noción"]
-        }
+    "technical": ["file", "document", "code", "system"],
+    "emotional": ["feeling", "heart", "soul", "emotion"],
+    "physical": ["object", "material", "body", "thing"],
+    "abstract": ["idea", "concept", "thought", "notion"]
+    }
         
         scores = {}
         for name, words in contexts.items():

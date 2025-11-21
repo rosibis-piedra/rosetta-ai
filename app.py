@@ -33,7 +33,7 @@ def cosine_similarity(a, b):
 
 @app.route('/')
 def home():
-    return jsonify({"status": "Rosetta AI Backend Running"})
+    return jsonify({"status": "Prompt Clarity Backend Running"})
 
 @app.route('/analyze', methods=['POST', 'OPTIONS'])
 @limiter.limit("10 per minute")

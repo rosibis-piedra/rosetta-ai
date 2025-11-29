@@ -4,3 +4,4 @@ openai
 numpy
 flask-limiter
 requests
+gunicorn

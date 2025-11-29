@@ -1,0 +1,9 @@
+backend/Lib/
+backend/Scripts/
+backend/__pycache__/
+*.pyc
+*.pyo
+.vercel/
+node_modules/
+*.log
+.env
